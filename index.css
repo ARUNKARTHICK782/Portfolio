@@ -1,0 +1,264 @@
+*{
+    box-sizing: border-box;
+    margin: 3px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.logo{
+    width: 40px;
+    height: 40px;
+    margin: 10px;
+}
+
+.github-profile{
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    margin: 10px;
+}
+
+.in-profile{
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    margin: 10px;
+}
+
+.mail{
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    margin: 10px;
+}
+
+.header{
+    height: 60px;
+    top: 0;
+    right: 0;
+}
+
+.navbar
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    width: 100%;
+}
+
+.navbar li{
+    list-style-type: none;
+    margin: 40px 20px 20px 20px;
+}
+
+.navbar li a{
+    text-decoration: none;
+    font-size: 18px;
+    padding: 15px;
+}
+
+.navbar li :hover{
+    border: 3px solid black;
+}
+
+.home{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.photo-frame{
+    text-align: center; padding-top: 20px;
+}
+
+.my-photo{
+    height: 350px;
+    width: 300px;
+    text-align: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+.photo-frame :hover
+{
+    display: none;
+    box-shadow: 2px 2px 5px 3px red;
+}
+
+.designation{
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-evenly;
+}
+
+.dev{
+    position: relative;
+    top: 0;
+    transition: top ease 0.5s;
+}
+
+.dev:hover{
+    top: -10px;
+}
+
+.aboutme-left{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 100px;
+    justify-content: start;
+    align-items: center;
+}
+
+.aboutme-right{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 100px;
+}
+
+.contact-icons{
+    display: flex;
+    background-color: aliceblue;
+    width: 200px;
+    box-shadow: 1px 1px 5px 2px rgb(183, 206, 239);
+    column-gap: 20px;
+}
+
+.aboutme-content{
+    padding: 20px;
+    font-size: 20px;
+    box-shadow: 1px 1px 9px 1px rgb(212, 221, 255);
+}
+
+.name{
+    font-size: 60px;
+    margin-right: 20px;
+    
+}
+
+.skills{
+    height: 100vh;
+    display: flex;
+    padding: 20px 80px 80px 80px;
+}
+
+.skills-left{
+    flex: 6;
+    display: flex;
+    align-items: start;
+}
+
+.skill-item{
+    height: 50px;
+    width: 50px;
+}
+
+.sub-heading{
+    font-size: 30px;
+    margin-top: 100px;
+    margin-left: 50px;
+    color: violet;
+    font-weight: 500;
+}
+
+.skills-right{
+    flex:4;
+}
+
+.skillset{
+    margin-top: 30px;
+    margin-left: 50px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    row-gap: 50px;
+    column-gap: 40px;
+    background-color: white;
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px 1px rgb(168, 208, 242);
+    
+}
+
+.about-me{
+    margin: 40px 40px 40px 50px;
+    background-color: white;
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px 1px rgb(168, 208, 242);
+}
+
+.about-me-content{
+    line-height: 30px;
+}
+
+.projects{
+    padding: 20px 80px 80px 80px;
+}
+
+.project-card{
+    height: 400px;
+    margin: 40px 20px 0px 40px;
+    background-color:white;
+    display: flex;
+    flex-direction: row;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px 1px rgb(168, 208, 242);
+}
+
+.project-card-left{
+    flex:4;
+}
+
+.project-card-right{
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    flex: 6;
+}
+
+.project-footer{
+    display: flex;
+    justify-content: space-between;
+}
+
+.project-content{
+    margin: 20px 20px 20px 0px;
+    font-size: 18px;
+}
+
+.project-heading{
+    font-size: 24px;
+}
+
+.contact-side{
+    padding: 20px ;
+    text-align: center;
+}
+
+.contact{
+    height: 35vh;
+    margin-bottom: 80px;
+    padding: 20px 80px 80px 80px;
+    display: flex;
+}
+
+.contact-left{
+    margin-left: 10px;
+    flex: 1;
+}
+
+.contact-left-main{
+    width: 400px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    padding:50px 0px 50px 50px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px 1px rgb(168, 208, 242);
+}
